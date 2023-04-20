@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Code - Contato</title> 
+	<link rel="stylesheet" type="text/css" href="css/folhadeestilo.css"> 
+</head>
+
+<body class='color-page'>
+	<div class="container-principal" id="topo">
+      <header>
+         	<div class="logo">
+         		<a herf="index.html">
+         			<img src="imagem/logo.png" alt="logo site">
+         		</a>	
+         	</div>
+         	<nav>
+         		<ul>
+         			<li><a href="index.html">home</a></li>
+         			<li><a href="clientes.html">clientes</a></li>
+         			<li><a href="sobre.html">sobre</a></li>
+         			<li><a href="#topo">contato</a></li>
+         		</ul>
+         	</nav>
+      </header>
+      <div class='img-titulo'><img src="imagem/contato.png" alt="imagem de contato"></div>
+      <section id="txt-contato">
+         <form name="meu_form" id="meu_form">
+           
+            <p class="nome">
+               <label for="nome">Nome:</label><br>
+               <input type="text" id="nomeid" placeholder="Ex:Fulano da Silva" required="required" name="nome"/>
+            </p>
+
+            <p class="fone">
+               <label for="fone">Telefone:</label><br>
+               <input type="fone" id="foneid" placeholder="ex:(00)00000-0000" name="fone"/>
+            </p>
+
+            <p>
+               <label for="e-mail">E-mail:</label><br>
+               <input type="e-mail" id="e-mailid" placeholder="fulanodasilva@hotmail.com" required="required" name="e-mail"/>
+            </p> 
+
+            <p>
+               <textarea placeholder="mensagem" required="required"></textarea>
+            </p> 
+            <button type="submit" form="meu_form">Enviar</button>
+         </form>
+         <div id="conta-data"> <h4>CODE - Desenvolvimento de Sites</h4>
+            <h5><img src="imagem/icoadress.png" alt="endereço" height="50px" width="50px"><br>Avenida Novos Conhecimentos Nº 2016</h5>
+            <h5><img src="imagem/icoTelefone.png" alt="Telefone" height="50px" width="50px"><br>+55 (11) 11111-1111</h5>
+            <h5><img src="imagem/icoContato.png" alt="e-mail" height="50px" width="50px"><br>contato@code.com.br</h5>
+            <h5><img src="imagem/icoface.png" alt="facebook" height="50px" width="50px"><br>facebook.com/codedev</h5>
+            <h5><img src="imagem/icoinsta.png" alt="instagram" height="50px" width="50px"><br>@codedev</h5>
+
+         </div>
+      </section>
+   </div>
+</body>
+</html>
